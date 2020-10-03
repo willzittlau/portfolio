@@ -1,4 +1,8 @@
-# portfolio
+# Portfolio
+
+Portfolio site built using Nuxt.js and Tailwind.css & deployed with GitHub pages.
+
+Work in progress...
 
 ## Build Setup
 

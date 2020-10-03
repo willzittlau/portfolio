@@ -1,0 +1,22 @@
+[
+  {
+    "start": "2015",
+    "end": "2020",
+    "name": "freshair",
+    "title": "sales associate/ technician",
+    "description": [
+      { "message": "ski tech" },
+      { "message":"sales associate" }
+    ]
+  },
+  {
+    "start": "2015",
+    "end": "2020",
+    "name": "core",
+    "title": "engineering co-op",
+    "description": [
+      { "message": "lab station" },
+      { "message":"testing" }
+    ]
+  }
+]
