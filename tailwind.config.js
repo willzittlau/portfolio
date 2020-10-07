@@ -1,6 +1,11 @@
 module.exports = {
   theme: {
-    darkSelector: ".dark-mode"
+    darkSelector: ".dark-mode",
+    inset: {
+      "0": 0,
+      auto: "auto",
+      "1/2": "50%"
+    }
   },
   variants: {
     backgroundColor: [
