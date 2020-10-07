@@ -11,6 +11,7 @@ export default {
     const mdContent = await $content("divs/about").fetch();
     return { mdContent };
   },
+  name: 'About'
 };
 </script>
 
