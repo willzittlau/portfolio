@@ -1,6 +1,6 @@
 <template>
   <div id="Technologies" class="px-20 py-10">
-    <h1 class="dark:text-white text-5xl text-center py-8">Technologies</h1>
+    <h1 class="dark:text-white text-6xl text-center py-8">Technologies</h1>
     <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-12 place-items-center">
       <div><img src="~assets/img/svg/python.svg" alt="Python" /></div>
       <div><img src="~assets/img/svg/flask.svg" alt="Flask" /></div>
@@ -11,7 +11,7 @@
       <div><img src="~assets/img/svg/nuxt.svg" alt="Nuxt" /></div>
       <div><img src="~assets/img/svg/tailwindcss.svg" alt="Tailwind" /></div>
       <div><img src="~assets/img/svg/bulma.svg" alt="Bulma" /></div>
-      <div><img src="~assets/img/svg/git.svg" alt="Git" /></div>
+      <div><img src="~assets/img/svg/gitlab.svg" alt="Gitlab" /></div>
       <div><img src="~assets/img/svg/github.svg" alt="Github" /></div>
       <div><img src="~assets/img/svg/vs-code.svg" alt="VS Code" /></div>
       <div><img src="~assets/img/svg/netlify.svg" alt="Netlify" /></div>

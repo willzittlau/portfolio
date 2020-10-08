@@ -5,9 +5,22 @@ module.exports = {
       "0": 0,
       auto: "auto",
       "1/2": "50%"
+    },
+    extend: {
+      colors: {
+        lightgrey: "#eaeaea",
+      }
     }
   },
   variants: {
+    opacity: [
+      "dark",
+      "dark-hover",
+      "dark-focus",
+      "responsive",
+      "hover",
+      "focus"
+    ],
     backgroundColor: [
       "dark",
       "dark-hover",

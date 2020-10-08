@@ -2,7 +2,7 @@
   <div id="Index">
     <Hero />
     <Technologies />
-    <div class="text-center">
+    <div id="Work" class="text-center">
       <ul>
         <li v-for="(job, index) in jobs" :key="index">
           <div>
