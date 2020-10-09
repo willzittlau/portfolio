@@ -1,6 +1,6 @@
 <template>
   <div id="About">
-    <nuxt-content :document="mdContent" />
+    <nuxt-content :document="about" />
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   components: {},
   async asyncData({ $content }) {
-    const mdContent = await $content("divs/about").fetch();
+    const about = await $content("about").fetch();
     return { mdContent };
   },
   name: 'About'
