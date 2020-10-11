@@ -15,6 +15,7 @@
         </li>
       </ul>
     </div>
+    <Contact />
     <a href="#Technologies">Section Title</a>
     <a href="#Index">Top</a>
   </div>

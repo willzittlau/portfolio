@@ -1,5 +1,5 @@
 <template>
-  <div id="Hero" class="pt-12 pb-48">
+  <div id="Hero" class="pt-8 min-h-screen">
     <div
       style="height: 600px"
       class="flex items-center justify-center relative"
