@@ -1,0 +1,3 @@
+# Robots.txt for https://willzittlau.github.io
+
+User-agent: * Disallow: /download/will-zittlau-resume.pdf
