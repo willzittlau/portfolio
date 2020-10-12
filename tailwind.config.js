@@ -7,8 +7,12 @@ module.exports = {
       "1/2": "50%"
     },
     extend: {
+      fontSize: {
+        "7xl": "6rem",
+        "8xl": "8rem"
+      },
       colors: {
-        lightgrey: "#eaeaea",
+        lightgrey: "#eaeaea"
       }
     }
   },

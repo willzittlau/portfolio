@@ -7,21 +7,21 @@
       <div class="mt-8 overflow-hidden">
         <div class="grid grid-cols-1 md:grid-cols-5">
           <div
-            class="col-span-2 p-6 mr-2 bg-gray-100 dark:bg-gray-700 rounded-lg"
+            class="col-span-2 p-6 mr-2 bg-lightgrey dark:bg-gray-700 rounded-lg"
           >
             <h1
-              class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight"
+              class="text-4xl sm:text-6xl text-black dark:text-white font-extrabold tracking-tight"
             >
               Get in touch
             </h1>
             <p
-              class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2"
+              class="text-normal text-lg sm:text-2xl font-medium text-gray-700 dark:text-gray-400 mt-2"
             >
               Fill in the form to start a conversation
             </p>
 
             <div
-              class="flex items-center mt-24 text-gray-600 dark:text-gray-400"
+              class="flex items-center mt-24 text-gray-700 dark:text-gray-400"
             >
               <svg
                 fill="none"
@@ -30,7 +30,7 @@
                 stroke-linejoin="round"
                 stroke-width="1.5"
                 viewBox="0 0 24 24"
-                class="w-8 h-8 text-gray-500"
+                class="w-8 h-8 text-gray-600"
               >
                 <path
                   stroke-linecap="round"
@@ -51,7 +51,7 @@
             </div>
 
             <div
-              class="flex items-center mt-5 text-gray-600 dark:text-gray-400"
+              class="flex items-center mt-5 text-gray-700 dark:text-gray-400"
             >
               <svg
                 fill="none"
@@ -60,7 +60,7 @@
                 stroke-linejoin="round"
                 stroke-width="1.5"
                 viewBox="0 0 24 24"
-                class="w-8 h-8 text-gray-500"
+                class="w-8 h-8 text-gray-600"
               >
                 <path
                   stroke-linecap="round"
@@ -75,7 +75,7 @@
             </div>
 
             <div
-              class="flex items-center mt-5 text-gray-600 dark:text-gray-400"
+              class="flex items-center mt-5 text-gray-700 dark:text-gray-400"
             >
               <svg
                 fill="none"
@@ -84,7 +84,7 @@
                 stroke-linejoin="round"
                 stroke-width="1.5"
                 viewBox="0 0 24 24"
-                class="w-8 h-8 text-gray-500"
+                class="w-8 h-8 text-gray-600"
               >
                 <path
                   stroke-linecap="round"

@@ -1,7 +1,7 @@
 <template>
   <div id="About">
-    <h1>About</h1>
-    <p>
+    <h1 class="dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-center font-extrabold pb-8">About</h1>
+    <p class="px-4 md:px-12 font-semibold text-base md:text-xl dark:text-gray-400">
       I am a recent (2020) Mechanical Engineering graduate at the University of
       British Columbia and registered EIT with a desire for continuous learning
       and challenging projects. I’m data centric, with a strong attention to
