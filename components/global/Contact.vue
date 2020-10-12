@@ -107,7 +107,7 @@
             class="col-span-3 px-6 md:px-4 ml-0 md:ml-4 mr-2 md:mr-2 flex flex-col justify-center"
           >
             <div class="flex flex-col">
-              <label for="name" class="hidden">Full Name</label>
+              <label for="name" class="hidden">Name</label>
               <input
                 type="name"
                 name="name"
@@ -127,17 +127,17 @@
             </div>
 
             <div class="flex flex-col mt-2">
-              <label for="email" class="hidden">Email</label>
+              <label for="subject" class="hidden">Subject</label>
               <input
                 type="text"
-                name="email"
+                name="subject"
                 placeholder="Subject"
                 class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-400 font-semibold focus:border-indigo-500 focus:outline-none"
               />
             </div>
 
             <div class="flex flex-col mt-2">
-              <label class="hidden">Number</label>
+              <label for="message" class="hidden">Enter your message here...</label>
               <textarea
                 name="message"
                 placeholder="Enter your message here..."
