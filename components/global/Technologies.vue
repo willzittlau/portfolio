@@ -1,6 +1,6 @@
 <template>
-  <div id="Technologies" class="px-10 sm:px-10 md:px-20 lg:px-30 xl:px-40 py-10">
-    <h1 class="dark:text-white text-6xl text-center py-8">Technologies</h1>
+  <div id="Technologies" class="px-10 sm:px-10 md:px-20 lg:px-30 xl:px-40">
+    <h1 class="dark:text-white text-6xl text-center pb-8">Technologies</h1>
     <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-12 place-items-center">
       <div><img src="~assets/img/svg/python.svg" alt="Python" /></div>
       <div><img src="~assets/img/svg/flask.svg" alt="Flask" /></div>

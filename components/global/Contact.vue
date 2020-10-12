@@ -1,5 +1,8 @@
 <template>
-  <div id="Contact" class="relative flex items-top justify-center sm:items-center sm:pt-0">
+  <div
+    id="Contact"
+    class="relative flex items-top justify-center sm:items-center sm:pt-0"
+  >
     <div class="pt-16 pb-8 max-w-full mx-auto sm:px-4 lg:px-4">
       <div class="mt-8 overflow-hidden">
         <div class="grid grid-cols-1 md:grid-cols-5">
@@ -91,7 +94,7 @@
                 />
               </svg>
               <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                hi@willz.dev
+                <a href="mailto:hi@willz.dev">hi@willz.dev</a>
               </div>
             </div>
           </div>
