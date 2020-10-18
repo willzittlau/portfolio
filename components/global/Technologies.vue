@@ -1,7 +1,7 @@
 <template>
   <div id="Technologies" class="px-10 sm:px-10 md:px-20 lg:px-30 xl:px-40">
-    <h1 class="mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-center font-extrabold pb-8 border-b-8 border-indigo-600">Technologies</h1>
-    <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-12 place-items-center">
+    <h1 class="mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-center font-extrabold pb-4 border-b-8 border-indigo-600">Technologies</h1>
+    <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-12 place-items-center pt-4">
       <div><img src="~assets/img/svg/python.svg" alt="Python" /></div>
       <div><img src="~assets/img/svg/flask.svg" alt="Flask" /></div>
       <div><img src="~assets/img/svg/javascript.svg" alt="Javascript" /></div>
