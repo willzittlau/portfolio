@@ -7,7 +7,7 @@
         <img
           width="100"
           height="18"
-          src="~assets/built-with-nuxt-light.svg"
+          src="~assets/img/svg/built-with-nuxt-light.svg"
           alt="Built with Nuxt"
         />
       </a>
