@@ -1,6 +1,6 @@
 <template>
   <div id="Technologies" class="text-center px-10 sm:px-10 md:px-20 lg:px-30 xl:px-40">
-    <h1 class="w-auto inline-block mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold border-b-8 border-indigo-600">
+    <h1 class="w-auto inline-block mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold border-b-4 md:border-b-8 border-indigo-600">
       Technologies
     </h1>
     <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-6 md:gap-12 place-items-center pt-8 pb-8">

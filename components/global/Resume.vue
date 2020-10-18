@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
     <a
-      class="w-auto inline-block mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold border-b-8 border-indigo-600"
+      class="w-auto inline-block mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold border-b-4 md:border-b-8 border-indigo-600"
       href="download/Will Zittlau - Resume.pdf"
       target="_blank">
       Hire me
