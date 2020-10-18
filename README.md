@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio site built using Nuxt.js and Tailwind.css & deployed with GitHub pages. View live at https://willz.dev
+Portfolio site built using Nuxt.js and Tailwind.css & deployed with Netlify. View live at https://willz.dev
 
 *Work in progress...
 
