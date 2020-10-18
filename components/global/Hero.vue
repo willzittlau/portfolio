@@ -6,7 +6,7 @@
           Will Zittlau, B.Asc
         </h1>
         <h2 id="content" class="text-2xl sm:text-3xl md:text-4xl dark:text-white font-semibold">
-          I make things and solve complex problems.
+          I make things and solve problems.
         </h2>
       </div>
       <img

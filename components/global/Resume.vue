@@ -6,7 +6,7 @@
       target="_blank">
       Hire me
     </a>
-    <p class="dark:text-gray-400 font-bold py-8">
+    <p class="pt-8 px-4 md:px-12 font-semibold text-base md:text-xl dark:text-gray-400">
       Click above for a link to my resume
     </p>
   </div>
