@@ -5,7 +5,7 @@
         <h1 id="title" class="text-4xl sm:text-5xl md:text-6xl dark:text-white font-bold">
           Will Zittlau, B.Asc
         </h1>
-        <h2 id="content" class="text-2xl sm:text-3xl md:text-4xl text-indigo-600">
+        <h2 id="content" class="text-2xl sm:text-3xl md:text-4xl dark:text-white font-semibold">
           I make things and solve complex problems.
         </h2>
       </div>
