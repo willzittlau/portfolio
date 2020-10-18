@@ -1,7 +1,7 @@
 <template>
   <div
     id="Contact"
-    class="relative flex items-top justify-center sm:items-center sm:pt-0"
+    class="relative flex items-top justify-center sm:items-center sm:pt-0 pb-16"
   >
     <div class="pt-16 pb-8 max-w-full mx-auto sm:px-4 lg:px-4">
       <div class="mt-8 overflow-hidden">
