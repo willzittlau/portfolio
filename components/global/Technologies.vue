@@ -1,5 +1,5 @@
 <template>
-  <div id="Technologies" class="px-10 sm:px-10 md:px-20 lg:px-30 xl:px-40">
+  <div id="Technologies" class="text-center px-10 sm:px-10 md:px-20 lg:px-30 xl:px-40">
     <h1 class="w-auto inline-block mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl items-center font-extrabold border-b-8 border-indigo-600">
       Technologies
     </h1>
