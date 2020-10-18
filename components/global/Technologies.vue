@@ -3,7 +3,7 @@
     <h1 class="w-auto inline-block mx-auto dark:text-white text-lightgrey text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold border-b-8 border-indigo-600">
       Technologies
     </h1>
-    <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-2 sm:gap-6 md:gap-12 place-items-center pt-8">
+    <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-6 md:gap-12 place-items-center pt-8">
       <div><img src="~assets/img/svg/python.svg" alt="Python" /></div>
       <div><img src="~assets/img/svg/flask.svg" alt="Flask" /></div>
       <div><img src="~assets/img/svg/javascript.svg" alt="Javascript" /></div>

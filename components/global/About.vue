@@ -39,7 +39,7 @@
       hiking. My time in the backcountry has engrained self-discipline and
       determination during many multi-day trips or all-day efforts. If you would
       like to learn more about me personally,
-      <span><a class="hover:text-indigo-600" href="https://willzittlau.com" target="_blank"> Click Here </a></span>
+      <span><a class="hover:text-indigo-600" href="https://willzittlau.com" target="_blank"> click here </a></span>
       to be redirected to my blog.
     </p>
   </div>

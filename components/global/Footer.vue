@@ -1,12 +1,5 @@
 <template>
-  <a href="#Hero">Top</a>
+  <div class="w-full h-16 bg-lightgrey text-center">
+    Footer Text
+  </div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-</style>
