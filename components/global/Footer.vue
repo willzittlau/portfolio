@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div id="Footer" 
     class="w-full h-40 bg-lightgrey dark:bg-gray-700 text-center items-center justify-center"
   >
     <div class="dark:text-white">
