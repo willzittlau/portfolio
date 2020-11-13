@@ -1,1 +1,9 @@
-html{scroll-behavior:smooth}
+html {
+  scroll-behavior: smooth;
+}
+
+.header-item:hover {
+  border-bottom-width: 4px;
+  --border-opacity: 1;
+  border-color: #5a67d8;
+}

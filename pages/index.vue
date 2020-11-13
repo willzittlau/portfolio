@@ -4,7 +4,7 @@
     <About />
     <Technologies />
     <Timeline :jobs="jobs" />
-    <Portfolio />>
+    <Portfolio />
     <Resume />
     <Contact />
   </div>

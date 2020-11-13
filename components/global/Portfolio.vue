@@ -6,8 +6,8 @@
       >
         Portfolio
       </h1>
-    </div>
-    <p class="pt-8 px-4 md:px-12 font-semibold text-base md:text-xl dark:text-gray-400">
+          <p class="pt-8 px-4 md:px-12 font-semibold text-base md:text-xl dark:text-gray-400">
       These are where my blog posts will be eventually</p>
+    </div>
   </div>
 </template>
