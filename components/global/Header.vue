@@ -1,9 +1,9 @@
 <template>
-  <div class="px-6">
-    <LightDarkBtn />
-    <a href="#About">About</a>
-    <a href="#Technologies">Technologies</a>
-    <a href="#Timeline">Timeline</a>
-    <a href="#Contact">Contact</a>
+  <div class="px-12 hover:border-b-4 border-indigo-600 dark:text-white">
+    <LightDarkBtn class="px-6" />
+    <a class="px-6" href="#About">About</a>
+    <a class="px-6" href="#Technologies">Technologies</a>
+    <a class="px-6" href="#Timeline">Timeline</a>
+    <a class="px-6" href="#Contact">Contact</a>
   </div>
 </template>
