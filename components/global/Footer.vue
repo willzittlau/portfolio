@@ -1,13 +1,18 @@
 <template>
-  <div id="Footer" 
+  <div
+    id="Footer"
     class="w-full h-20 bg-lightgrey dark:bg-gray-700 text-center items-center justify-center"
   >
-    <div class="md:grid-cols-3 dark:text-white text-2xl content-center justify-center flex">
-      &copy; {{ new Date().getFullYear() }} Will Zittlau
-      &nbsp;
-      <span class="md:grid-cols-3 content-center justify-center flex mt-2">
+    <div
+      class="md:grid-cols-3 dark:text-white text-2xl content-center justify-center flex"
+    >
+      &copy; {{ new Date().getFullYear() }} Will Zittlau &nbsp;
+      <span
+        class="md:grid-cols-3 content-center justify-center flex mt-2 opacity-100 dark:opacity-0"
+      >
         <a href="https://nuxtjs.org/">
           <img
+            class=""
             width="150"
             height="50"
             src="~assets/img/svg/built-with-nuxt-light.svg"
@@ -15,9 +20,20 @@
           />
         </a>
       </span>
-      <span class="md:grid-cols-3">&nbsp;
-      and made with
-      <span style="color: #e25555">&#9829;</span>
+      <span
+        class="md:grid-cols-3 content-center justify-center flex mt-2 opacity-0 dark:opacity-100"
+      >
+        <img
+          class="opacity-0 dark:opacity-100"
+          width="150"
+          height="50"
+          src="~assets/img/svg/built-with-nuxt-dark.svg"
+          alt="Built with Nuxt"
+        />
+      </span>
+      <span class="md:grid-cols-3"
+        >&nbsp; and made with
+        <span style="color: #e25555">&#9829;</span>
       </span>
     </div>
   </div>
