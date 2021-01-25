@@ -134,4 +134,7 @@ svg.logo {
   height: 100px;
   width: 100px;
 }
+svg.logo:hover {
+  fill: #5a67d8;
+}
 </style>
