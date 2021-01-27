@@ -7,8 +7,8 @@
 <script>
 export default {
   mounted() {
-    var bounceArrow = document.querySelector(".bounce");
     window.onscroll = function (e) {
+      var bounceArrow = document.querySelector(".bounce");
       if (window.scrollY != 0) {
         bounceArrow.classList.add("fade");
       }
@@ -23,7 +23,7 @@ export default {
 <style lang="css" scoped>
 .bounce {
   opacity: 1;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s, visibility 0s linear;
   position: fixed;
   left: 50%;
   bottom: 0;
@@ -37,6 +37,7 @@ export default {
 
 .bounce.fade {
   opacity: 0;
+  visibility: hidden;
 }
 
 .bounce:hover {

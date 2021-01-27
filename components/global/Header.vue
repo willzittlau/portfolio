@@ -102,9 +102,9 @@ c-14 26 -18 28 -42 19 -65 -24 -214 -50 -292 -50 -45 0 -85 2 -87 4 -2 2 9 21
               Footer
             </a>
           </div>
-        </div>
-        <div>
+                  <div>
           <LightDarkBtn class="px-6" />
+        </div>
         </div>
       </nav>
     </div>

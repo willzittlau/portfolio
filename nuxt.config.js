@@ -1,3 +1,5 @@
+import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
@@ -55,7 +57,7 @@ export default {
           },
           {
             set: "@fortawesome/free-solid-svg-icons",
-            icons: ["faChevronDown"]
+            icons: ["faChevronDown", "faLightbulb", "faMoon"]
           }
         ]
       }
