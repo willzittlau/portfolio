@@ -1,7 +1,6 @@
-import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
-
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
+  mode: 'universal',
   target: "static",
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
