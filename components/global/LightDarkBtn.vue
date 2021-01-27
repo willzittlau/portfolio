@@ -1,10 +1,14 @@
 
 <template>
   <button
-    class=" text-black dark:text-white hover:text-indigo-600 mt-4"
-    @click="toggleTheme(); toggleIcon();"
+    class="text-black dark:text-white hover:text-indigo-600 mt-4"
+    @click="toggleTheme"
   >
-    <fa :icon="light ? ['fas', 'lightbulb'] : ['fas', 'moon']" style="font-size: 32px" />
+    <fa
+      :icon="light ? ['fas', 'lightbulb'] : ['fas', 'moon']"
+      style="font-size: 32px"
+      @click="toggleIcon"
+    />
   </button>
 </template>
 
@@ -20,18 +24,18 @@ export default {
       this.$colorMode.preference =
         this.$colorMode.value == "light" ? "dark" : "light";
     },
-    toggleIcon(){
-      this.light = !this.light
-    }
+    toggleIcon() {
+      this.light = !this.light;
+    },
   },
 };
 </script>
 
 <style lang="css" scoped>
-  button:focus{
-    outline: none;
-  }
-  button{
-    padding: 0px;
-  }
+button:focus {
+  outline: none;
+}
+button {
+  padding: 0px;
+}
 </style>

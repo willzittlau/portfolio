@@ -1,21 +1,27 @@
 <template>
-  <div class="bounce">
-    <a href="#About"><fa :icon="['fas', 'chevron-down']" style="font-size: 48px" /></a>
+  <div class="bounce text-black dark:text-white">
+    <a href="#About"
+      ><fa :icon="['fas', 'chevron-down']" style="font-size: 48px"
+    /></a>
   </div>
 </template>
 
 <script>
 export default {
   mounted() {
-    window.onscroll = function (e) {
-      var bounceArrow = document.querySelector(".bounce");
+    window.addEventListener("scroll", this.onScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll);
+  },
+  methods: {
+    onScroll(e) {
       if (window.scrollY != 0) {
-        bounceArrow.classList.add("fade");
+        document.querySelector(".bounce").classList.add("fade");
+      } else {
+        document.querySelector(".bounce").classList.remove("fade");
       }
-      else {
-        bounceArrow.classList.remove("fade");
-      }
-    };
+    },
   },
 };
 </script>
