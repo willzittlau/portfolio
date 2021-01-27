@@ -43,7 +43,23 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    "@nuxt/content",
+    [
+      "nuxt-fontawesome",
+      {
+        component: "fa",
+        imports: [
+          {
+            set: "@fortawesome/free-brands-svg-icons",
+            icons: ["faGithub", "faInstagram", "faLinkedin", "faStrava", "faVimeoV"]
+          },
+          {
+            set: "@fortawesome/free-solid-svg-icons",
+            icons: ["faChevronDown"]
+          }
+        ]
+      }
+    ]
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/content-config)
