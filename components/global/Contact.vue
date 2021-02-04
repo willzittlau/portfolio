@@ -21,7 +21,7 @@
             </p>
 
             <div
-              class="flex items-center mt-24 text-gray-700 dark:text-gray-400"
+              class="flex items-center mt-12 text-gray-700 dark:text-gray-400"
             >
               <svg
                 fill="none"
