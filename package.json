@@ -16,7 +16,8 @@
     "@nuxt/content": "^1.8.1",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.5",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^1.1.1",

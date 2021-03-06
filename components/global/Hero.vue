@@ -8,12 +8,19 @@
         >
           Will Zittlau, B.Asc
         </h1>
-        <h2
-          id="content"
-          class="text-2xl sm:text-3xl md:text-4xl dark:text-white font-semibold"
+        <vue-typed-js
+          :strings="['Full Stack Developer', 'Product Development', 'Creative']"
+          :loop="true"
+          :typeSpeed="100"
+          :backSpeed="30"
+          :backDelay="1000"
+          class="text-2xl sm:text-3xl md:text-4xl dark:text-white font-semibold justify-center"
         >
-          I make things and solve problems.
-        </h2>
+          <h2
+            id="content"
+            class="text-2xl sm:text-3xl md:text-4xl dark:text-white font-semibold typing"
+          ></h2>
+        </vue-typed-js>
       </div>
       <img
         class="h-full block absolute inset-x-0 m-auto bottom-0 z-0 filter-gray-light opacity-100 dark:opacity-0"
@@ -52,5 +59,4 @@
   filter: invert(55%) sepia(4%) saturate(2061%) hue-rotate(177deg)
     brightness(89%) contrast(86%);
 }
-
 </style>
