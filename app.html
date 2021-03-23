@@ -2,16 +2,24 @@
 <html {{ HTML_ATTRS }}>
   <head {{ HEAD_ATTRS }}>
     {{ HEAD }}
-    <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
   </head>
   <body {{ BODY_ATTRS }}>
-    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
-            <input type="name" name="name" placeholder="Name" />
-            <input type="email" name="email" placeholder="Email" />
-            <input type="text" name="subject" placeholder="Subject" />
-            <textarea name="message" placeholder="Enter your message here..."></textarea>
-            <button type="submit">Submit</button>
-            </form>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="name" name="name" placeholder="Name" />
+      <input type="email" name="email" placeholder="Email" />
+      <input type="text" name="subject" placeholder="Subject" />
+      <textarea
+        name="message"
+        placeholder="Enter your message here..."
+      ></textarea>
+      <button type="submit">Submit</button>
+    </form>
     {{ APP }}
   </body>
 </html>
